@@ -36,7 +36,7 @@ installTheme(){
     mv resources/scripts/components/auth/LoginFormContainer.tsx /var/www/pterodactyl/resources/scripts/components/auth/LoginFormContainer.tsx
     mv public/themes/pterodactyl/pterodactyl.css /var/www/pterodactyl/public/themes/pterodactyl/css/pterodactyl.css
     mv tailwind.config.js /var/www/pterodactyl/tailwind.config.js
-    curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+    curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
    
     apt update
     apt install -y nodejs
